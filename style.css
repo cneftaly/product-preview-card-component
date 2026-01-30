@@ -103,6 +103,7 @@ main {
   color: white;
   font: var(--text-preset-2);
   cursor: pointer;
+  transition: background-color 300ms ease;
 }
 
 .product-card__button img {
@@ -111,6 +112,7 @@ main {
 
 .product-card__button:hover {
   background-color: var(--green-700);
+  transition: background-color 300ms ease;
 }
 
 @media screen and (width >= 768px) {
