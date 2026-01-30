@@ -14,14 +14,14 @@
   <main>
     <article class="product-card">
       <picture>
-        <source media="(width <= 375px)" srcset="./images/image-product-mobile.jpg">
         <source media="(min-width: 768px)" srcset="./images/image-product-desktop.jpg">
+        <source media="(min-width: 375px)" srcset="./images/image-product-mobile.jpg">
         <img class="product-card__image" src="./images/image-product-mobile.jpg"
           alt="Image of a Gabrielle Chanel perfume bottle">
       </picture>
 
       <div class="product-card__content">
-        <p class="product-card__category">Perfume</p>
+        <span class="product-card__category" aria-label="Product category">Perfume</span>
         <h1 class="product-card__title">Gabrielle Essence Eau De Parfum</h1>
         <p class="product-card__description">
           A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
